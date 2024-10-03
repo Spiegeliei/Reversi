@@ -1,0 +1,15 @@
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\bin\Debug\net8.0-windows\Reversi.exe
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\bin\Debug\net8.0-windows\Reversi.deps.json
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\bin\Debug\net8.0-windows\Reversi.runtimeconfig.json
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\bin\Debug\net8.0-windows\Reversi.dll
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\bin\Debug\net8.0-windows\Reversi.pdb
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.AssemblyInfoInputs.cache
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.AssemblyInfo.cs
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.csproj.CoreCompileInputs.cache
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.sourcelink.json
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.dll
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\refint\Reversi.dll
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.pdb
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\Reversi.genruntimeconfig.cache
+C:\Users\nmbos\Documents\GitHub\Reversi\Reversi\Reversi\obj\Debug\net8.0-windows\ref\Reversi.dll
