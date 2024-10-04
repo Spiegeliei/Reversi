@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,21 +25,21 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Reversi.cs",
               "DocumentMoniker": "C:\\Users\\nmbos\\Documents\\GitHub\\Reversi\\Reversi\\Reversi\\Reversi.cs",
               "RelativeDocumentMoniker": "Reversi\\Reversi.cs",
-              "ToolTip": "C:\\Users\\nmbos\\Documents\\GitHub\\Reversi\\Reversi\\Reversi\\Reversi.cs",
-              "RelativeToolTip": "Reversi\\Reversi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nmbos\\Documents\\GitHub\\Reversi\\Reversi\\Reversi\\Reversi.cs*",
+              "RelativeToolTip": "Reversi\\Reversi.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:06:45.007Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

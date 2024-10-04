@@ -1,27 +1,41 @@
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-Form scherm = new Form();
-scherm.Text = "Reversi";
-scherm.BackColor = Color.LightYellow;
-scherm.ClientSize = new Size(220, 220);
+class Scherm : Form
+{
+    private ComboBox BordGrootte;
+    private Panel Panel;
+    private Label Label;
 
-// met een Bitmap kun je een plaatje opslaan in het geheugen
-Bitmap plaatje = new Bitmap(200, 200);
+    public Scherm()
+    {
+        Text = "reversie piemeltje";
+        Size = new Size(500, 600);
 
-// je kunt de losse pixels van het plaatje manipuleren
-plaatje.SetPixel(10, 10, Color.Red);
+        Label = new Label();
+        Label.Text = "Kies bordgrootte:";
+        Label.Location = new Point(20, 20);
+        Controls.Add(Label);
 
-// maar om complexere figuren te tekenen heb je een Graphics nodig
-Graphics tekenaar = Graphics.FromImage(plaatje);
-tekenaar.FillEllipse(Brushes.Blue, 30, 40, 100, 50);
+        BordGrootte = new ComboBox();
+        BordGrootte.Items.AddRange(new object[] { "4x4", "6x6", "8x8", "10x10" });
+        BordGrootte.SelectedIndex = 1; // Standaard: 6x6
+        BordGrootte.Location = new Point(150, 20);
+        Controls.Add(BordGrootte);
 
-// een Label kan ook gebruikt worden om een Bitmap te laten zien
-Label afbeelding = new Label();
-scherm.Controls.Add(afbeelding);
-afbeelding.Location = new Point(10, 10);
-afbeelding.Size = new Size(200, 200);
-afbeelding.BackColor = Color.White;
-afbeelding.Image = plaatje;
+        Panel = new Panel();
+        Panel.Location = new Point(20, 60);
+        Panel.Size = new Size(400, 400);
+        Panel.BorderStyle = BorderStyle.FixedSingle;
+        Controls.Add(Panel);
+    }
+}
 
-Application.Run(scherm);
+class Program
+{
+    public static void Main()
+    {
+        Application.Run(new Scherm());
+    }
+}
